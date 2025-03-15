@@ -1,0 +1,1 @@
+SELECT name, age FROM customer ORDER BY age DESC LIMIT 5;

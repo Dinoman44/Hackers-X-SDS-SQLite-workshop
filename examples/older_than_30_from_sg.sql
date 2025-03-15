@@ -1,0 +1,1 @@
+SELECT name, age, country FROM customer WHERE age > 30 AND country = 'SG';
