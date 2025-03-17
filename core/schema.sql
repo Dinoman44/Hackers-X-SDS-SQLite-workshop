@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS customer (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
     age INTEGER NOT NULL,
-    email TEXT NOT NULL,
+    email TEXT UNIQUE NOT NULL,
     country TEXT NOT NULL,
     join_date DATE NOT NULL DEFAULT CURRENT_DATE
             CHECK(join_date <= CURRENT_DATE)

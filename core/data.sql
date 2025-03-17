@@ -18,6 +18,7 @@ INSERT INTO customer (name, age, email, country, join_date) VALUES ('Farah Zain'
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Nathan Clarke', 55, 'nathan.clarke@gmail.com', 'AUS', '2023-12-21');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Arjun Verma', 63, 'arjun.verma@outlook.com', 'IND', '2024-01-09');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Seojun Park', 26, 'seojun.park@outlook.com', 'KOR', '2024-02-27');
+INSERT INTO customer (name, age, email, country, join_date) VALUES ('Seojun Park', 38, 'sjpark1987@outlook.com', 'KOR', '2025-01-28');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Rina Suzuki', 47, 'rina.suzuki@outlook.com', 'JAP', '2024-03-12');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Iqbal Hossain', 37, 'iqbal.hossain@gmail.com', 'BAN', '2023-06-17');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Sophie Lim', 34, 'sophie.lim@yahoo.com', 'SG', '2023-07-28');
