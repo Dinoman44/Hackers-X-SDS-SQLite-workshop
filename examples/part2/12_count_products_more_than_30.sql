@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM product WHERE price > 30;

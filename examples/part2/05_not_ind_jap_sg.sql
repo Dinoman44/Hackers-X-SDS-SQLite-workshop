@@ -1,1 +1,0 @@
-SELECT name, country FROM customer WHERE country NOT IN ('JAP', 'SG', 'IND');
