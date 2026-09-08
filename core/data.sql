@@ -1,5 +1,5 @@
 -- customer data
-INSERT INTO customer (name, age, email, country, join_date) VALUES ('Prakaymya Singh', 19, 'prak.singh@nushackers.org', 'IND', '2023-06-15');
+INSERT INTO customer (name, age, email, country, join_date) VALUES ('Prakamya Singh', 19, 'prak.singh@nushackers.org', 'IND', '2023-06-15');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('John Kim', 32, 'john.kim@yahoo.com', 'SG', '2023-07-20');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Ravi Sharma', 45, 'ravi.sharma@outlook.com', 'IND', '2024-04-05');
 INSERT INTO customer (name, age, email, country, join_date) VALUES ('Emily Wong', 29, 'emily.wong@gmail.com', 'AUS', '2023-09-10');
