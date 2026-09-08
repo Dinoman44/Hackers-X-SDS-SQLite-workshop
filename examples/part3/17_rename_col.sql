@@ -1,0 +1,1 @@
+SELECT name AS full_name FROM product;
