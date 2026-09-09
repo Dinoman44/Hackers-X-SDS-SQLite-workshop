@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS purchase (
     id INTEGER PRIMARY KEY AUTOINCREMENT, -- unique id for each purchase, +1 per row
     customer_id INTEGER NOT NULL, -- foreign key referencing the customer who made the purchase
     product_id INTEGER NOT NULL, -- foreign key referencing the product that was purchased
-    quantity INTEGER NOT NULL CHECK(quantity >= 0), -- quantity of the product purchased, must be non-negative
+    quantity INTEGER NOT NULL CHECK(quantity > 0), -- quantity of the product purchased, must be positive
     total_price INTEGER NOT NULL CHECK(total_price >= 0), -- total price of the purchase, must be non-negative
     purchase_date DATE NOT NULL -- date of the purchase, cannot be empty,...
             DEFAULT CURRENT_DATE -- defaults to current date if not provided, and...
